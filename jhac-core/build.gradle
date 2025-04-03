@@ -1,0 +1,24 @@
+plugins {
+    id 'buildlogic.java-conventions'
+}
+
+description = 'jhac-core'
+version = rootProject.version
+
+dependencies {
+    api libs.org.springframework.spring.web
+    api libs.org.apache.httpcomponents.httpclient
+    api libs.com.fasterxml.jackson.core.jackson.databind
+    api libs.org.jsoup.jsoup
+    api libs.com.github.rholder.guava.retrying
+    api libs.org.slf4j.slf4j.api
+    testImplementation libs.junit.junit
+    testImplementation libs.org.hamcrest.hamcrest
+    compileOnly libs.org.projectlombok.lombok
+    compileOnly libs.org.slf4j.jcl.over.slf4j
+    compileOnly libs.ch.qos.logback.logback.classic
+    annotationProcessor ("org.projectlombok:lombok:1.18.38")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.38")
+}
+
+

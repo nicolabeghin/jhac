@@ -9,3 +9,7 @@
 **/.classpath
 **/.project
 **/.settings
+.gradle
+build
+jhac-core/build
+jhac-ui/build
