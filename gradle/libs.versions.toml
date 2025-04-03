@@ -3,19 +3,19 @@
 
 [versions]
 ch-qos-logback-logback-classic = "1.2.3"
-com-fasterxml-jackson-core-jackson-databind = "2.11.0"
+com-fasterxml-jackson-core-jackson-databind = "2.13.4.2"
 com-github-rholder-guava-retrying = "2.0.0"
-commons-io-commons-io = "2.6"
+commons-io-commons-io = "2.14.0"
 info-picocli-picocli = "4.3.2"
 junit-junit = "4.13.1"
-org-apache-httpcomponents-httpclient = "4.5.12"
+org-apache-httpcomponents-httpclient = "4.5.13"
 org-hamcrest-hamcrest = "2.1"
-org-jsoup-jsoup = "1.12.1"
+org-jsoup-jsoup = "1.15.3"
 org-projectlombok-lombok = "1.18.12"
 org-slf4j-jcl-over-slf4j = "1.7.30"
 org-slf4j-slf4j-api = "1.7.30"
 org-slf4j-slf4j-simple = "1.7.30"
-org-springframework-spring-web = "5.2.6.RELEASE"
+org-springframework-spring-web = "5.3.39"
 
 [libraries]
 ch-qos-logback-logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "ch-qos-logback-logback-classic" }
