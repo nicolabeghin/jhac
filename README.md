@@ -112,9 +112,24 @@ Write all byte arrays into a file and you will have a ZIP file containing 2 file
 A CSV file with the expected impex csv rows with a simple (non-impex) header line starting with #
 and the data rows (without leading ; unlike impex csv rows)
 
-## Maven dependency
+## Gradle dependency
 
-![Release](https://jitpack.io/v/nicolabeghin/jhac.svg)
+Enable Jitpack.io repository
+
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+then
+
+ 	dependencies {
+		implementation 'com.github.nicolabeghin:jhac:1.2.1'
+	}
+## Maven dependency
 
 ```
 <repositories>
