@@ -1,4 +1,4 @@
-# Java client for SAP Hybris administration console [![Build Status](https://travis-ci.org/klaushauschild1984/jhac.svg?branch=master)](https://travis-ci.org/klaushauschild1984/jhac)
+# Java client for SAP Hybris administration console [![Build Status](https://travis-ci.org/nicolabeghin/jhac.svg?branch=master)](https://travis-ci.org/nicolabeghin/jhac)
 
 SAP Hybris offers with its administration console a powerful tool to
 
@@ -110,7 +110,7 @@ and the data rows (without leading ; unlike impex csv rows)
 
 ## Maven dependency
 
-![Release](https://jitpack.io/v/klaushauschild1984/jhac.svg)
+![Release](https://jitpack.io/v/nicolabeghin/jhac.svg)
 
 ```
 <repositories>
@@ -122,9 +122,9 @@ and the data rows (without leading ; unlike impex csv rows)
 ...
 <dependencies>
     <dependency>
-        <groupId>com.github.klaushauschild1984.jhac</groupId>
+        <groupId>com.github.nicolabeghin.jhac</groupId>
         <artifactId>jhac-core</artifactId>
-        <version>1.0</version>
+        <version>1.2.2</version>
     </dependency>
 </dependencies>
 ```
@@ -176,7 +176,7 @@ There is no option to write the output to a file, but you can easily pipe it int
 
 ### Downloads
 
-You can also find ready to use downloads at [releases](https://github.com/klaushauschild1984/jhac/releases).
+You can also find ready to use downloads at [releases](https://github.com/nicolabeghin/jhac/releases).
 
 ## Interactive user interface
 
