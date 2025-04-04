@@ -1,10 +1,10 @@
-# Java client for SAP Hybris administration console 
+# Java client for SAP (Hybris) Commerce Cloud administration console (HAC)
 
 [![Java CI with Maven](https://github.com/nicolabeghin/jhac/actions/workflows/gradle.yml/badge.svg)](https://github.com/nicolabeghin/jhac/actions/workflows/gradle.yml)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nicolabeghin/jhac?sort=semver)](https://img.shields.io/github/v/release/nicolabeghin/jhac?sort=semver) 
 [![GitHub All Releases](https://img.shields.io/github/downloads/nicolabeghin/jhac/total)](https://img.shields.io/github/downloads/nicolabeghin/jhac/total)
 
-SAP Hybris offers with its administration console a powerful tool to
+[SAP (Hybris) Commerce Cloud (TM)](https://www.sap.com/products/crm/commerce-cloud.html) offers with its administration console (HAC) a powerful tool to
 
 * execute code
 * query data
