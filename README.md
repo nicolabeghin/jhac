@@ -1,3 +1,5 @@
+> forked from unmaintained/not-available-anymore https://github.com/klaushauschild1984/jhac/
+
 # Java client for SAP (Hybris) Commerce Cloud administration console (HAC)
 
 [![Java CI with Maven](https://github.com/nicolabeghin/jhac/actions/workflows/gradle.yml/badge.svg)](https://github.com/nicolabeghin/jhac/actions/workflows/gradle.yml)
