@@ -151,7 +151,7 @@ public abstract class Base<REQUEST, RESPONSE> {
     loginRequest.put("_csrf", singletonList(csrfToken));
     loginRequest.put("j_username", singletonList(configuration.getUsername()));
     loginRequest.put("j_password", singletonList(configuration.getPassword()));
-    loginRequest.put("_spring_security_remember_me", singletonList("on"));
+//    loginRequest.put("_spring_security_remember_me", singletonList("on"));
     final HttpHeaders headers = requestHeaders();
     restTemplate.postForEntity(
         configuration.getEndpoint() + "/j_spring_security_check",
